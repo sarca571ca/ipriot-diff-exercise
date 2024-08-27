@@ -7,7 +7,8 @@ This is a repo to help you practice diffing!
 
 To get started:
 
-1. Fork this repo
+1. Fork this repo.
+⚠️ IMPORTANT: Fork all branches. Not just `main`
 2. Clone your forked repo:
 ```bash
 git clone <your-forked-repo-url>
@@ -27,17 +28,48 @@ That is, the difference between A and B can allow A to be transformed into B and
 Let's now look at an example diff:
 
 ```diff
-diff --git a/README.md b/README.md
-index 6c6f7e3..f7b3b3e 100644
---- a/README.md
+diff --git a/README.md b/README.md ①
+index 7f35690..14cf26a 100644 ②
+--- a/README.md ③
 +++ b/README.md
-@@ -1,10 +1,10 @@
- # Overview
+@@ -8,9 +8,12 @@ ④
+This is a repo to help you practice diffing!
+ To get started:
 
- This is a repo to help you practice diffing!
- + This is a new line
- - This is a line that was removed
+ 1. Fork this repo ⑤
+-2. Clone your forked repo ⑥
++2. Clone your forked repo:
++```bash
++git clone <your-forked-repo-url>
++```
 
-## Instructions
- ```
+-Follow these instructions c.a.r.e.f.u.l.l.y. ⑦
++Follow these instructions carefully.
+```
 
+Fill in what each of the elements of the diff mean (if you are not sure just guess!):
+**①**:
+> Insert your answer here
+
+**②**:
+> Insert your answer here
+
+**③**:
+> Insert your answer here
+
+**④**:
+> Insert your answer here
+
+**⑤**:
+> Insert your answer here
+
+**⑥**:
+> Insert your answer here
+
+**⑦**:
+> Insert your answer here
+
+
+Notice that the diff above only showed different **lines** in the file. This is the default behavior of the `diff` command. However, you can also show the difference between words in a line by using the `-w` flag. For example:
+
+ 
