@@ -49,13 +49,13 @@ This is a repo to help you practice diffing!
 
 Fill in what each of the elements of the diff mean (if you are not sure just guess!):
 **①**:
-> Insert your answer here
+> Insert your explanation here
 
 **②**:
 > Insert your answer here
 
 **③**:
-> Insert your answer here
+> Insert your explanation here
 
 **④**:
 > Insert your answer here
@@ -64,7 +64,7 @@ Fill in what each of the elements of the diff mean (if you are not sure just gue
 > Insert your answer here
 
 **⑥**:
-> Insert your answer here
+> Insert your explanation here
 
 **⑦**:
 > Insert your answer here
