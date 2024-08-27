@@ -8,9 +8,12 @@ This is a repo to help you practice diffing!
 To get started:
 
 1. Fork this repo
-2. Clone your forked repo
+2. Clone your forked repo:
+```bash
+git clone <your-forked-repo-url>
+```
 
-Follow these instructions c.a.r.e.f.u.l.l.y.
+Follow these instructions carefully.
 
 ## Diffing
 
