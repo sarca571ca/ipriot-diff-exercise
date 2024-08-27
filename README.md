@@ -102,7 +102,7 @@ Fill in what each of the elements of the diff mean (if you are not sure just gue
 See if you can guess the overall command to produce the above diffs:
 
 ```bash
-? your guess is as good as mine
+git diff --word-diff
 ```
 
 ## Stashing
