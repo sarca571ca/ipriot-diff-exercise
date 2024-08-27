@@ -7,7 +7,7 @@ This is a repo to help you practice diffing!
 To get started:
 
 1. Fork this repo.
-⚠️ IMPORTANT: Fork all branches. Not just `main`
+   ⚠️ IMPORTANT: Fork all branches. Not just `main`
 2. Clone your forked repo:
 
 ```bash
@@ -23,11 +23,12 @@ A diff is a speciifc file format that tells you the difference between lines in 
 $$
 A = B \circ \text{Apply}(\text{Diff}(A, B))
 $$
+
 That is, the difference between A and B can allow A to be transformed into B and vice versa using a function that **applies** said difference.
 
 Let's now look at an example diff:
 
-```diff
+````diff
 diff --git a/README.md b/README.md ①
 index 7f35690..14cf26a 100644 ②
 --- a/README.md ③
@@ -45,12 +46,11 @@ This is a repo to help you practice diffing!
 
 -Follow these instructions c.a.r.e.f.u.l.l.y. ⑦
 +Follow these instructions carefully.
-```
+````
 
 Fill in what each of the elements of the diff mean (if you are not sure just guess!):
 
-
-**①** 
+**①**
 Shows this is a diff in git format. It is followed by the file names being compared. The `a/` and `b/` 'folders' are like virtual folders that usually represent different versions with the newer version being b/ and the older version being a/.
 
 **②**
@@ -106,7 +106,7 @@ git diff --word-diff
 ```
 
 ## Stashing
->
+
 > Make sure you attempted to fill in your explanation above!
 
 Guess what!? Your lecturer has also got an answer to these questions! They are in another branch though!
@@ -129,7 +129,7 @@ Bet you didn't expect an existential crisis learning git (well, you should!).
 
 Lucky for you, there is one quality of life option we didn't mention: `git stash`.
 
-This command *stashes* your changes safely away so you can come back to them later. It is like a commit to the "not sure what to do with this yet" branch.
+This command _stashes_ your changes safely away so you can come back to them later. It is like a commit to the "not sure what to do with this yet" branch.
 
 So let's do that:
 
